@@ -12,8 +12,9 @@ import searchHistoryRoutes from './routes/searchHistory.js';
 const app = express();
 app.use(cors({
   origin: [
-    'http://localhost:8080',
-    'https://spark-zone-two.vercel.app/',
+    'https://spark-zone-two.vercel.app',
+    'https://frontendmap.vercel.app',
+    'http://localhost:8080'
   ],
   credentials: true
 }));

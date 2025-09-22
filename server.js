@@ -13,7 +13,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:8080',
-    'https://frontendmap.vercel.app'
+    'https://spark-zone-two.vercel.app/',
   ],
   credentials: true
 }));
